@@ -31,7 +31,7 @@ This action comes with 2 welcome images, you can also substitute in your own ima
 ![](https://cdn.anishdoes.dev/githubdark.png)
 
 ## Example
-![First Issue Greeting](img/example.png)
+![First Issue Greeting](https://cdn.anishdoes.dev/greeterexample.png)
 
 
 # License
