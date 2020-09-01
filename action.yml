@@ -1,0 +1,15 @@
+name: 'Github Greeter'
+description: 'Greets users when they make there first issue.'
+author: 'AnishAnne'
+branding:
+  icon: activity
+  color: blue
+inputs:
+  repo-token:
+    description: 'Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}'
+    required: true
+  greeting:
+    description: 'Comment to post on an individuals first pull request'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
