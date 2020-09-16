@@ -24,7 +24,8 @@ jobs:
 This action will check if its a users first issue to the rep and if it is, greet them. It comes prepackaged with 2 "welcome" images as well as a basic welcome message to get you started. 
 
 ## Welcome Images
-This action comes with 2 welcome images, you can also substitute in your own image or compeltly remove the image feature.
+This action comes with 2 welcome images, you can also substitute in your own image or completely remove the image feature.
+
 - Light Theme (Available at `cdn.anishdoes.dev/githublight.png`)
 ![](https://cdn.anishdoes.dev/githublight.png)
 - Dark Theme (Available at `cdn.anishdoes.dev/githubdark.png`)
