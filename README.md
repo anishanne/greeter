@@ -4,7 +4,7 @@ Greets users when they make there first issues. Forked from [`actions/first inte
 
 # Usage
 
-See [this file for an example](https://github.com/JJ/dummy-actions-3/blob/master/.github/workflows/pr-greeting.yaml)
+See [this file for an example](https://github.com/anishanne/greeter/blob/master/.github/workflows/github-greeter.yml)
 
 ```yaml
 name: "Issue Greeter"
@@ -18,7 +18,7 @@ jobs:
         uses: anishanne/greeter@releases/v0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          pr-message: "![](https://cdn.anishdoes.dev/githublight.png)\nHey @{user}! Welcome to the **Greeter** repo on **Github**. If you have a question sure to check out our [wiki](https://github.com/anishanne/
+          pr-message: "![](https://cdn.anishdoes.dev/githublight.png)\nHey @{user}! Welcome to the **Greeter** repo on **Github**.
 ```
 
 This action will check if its a users first issue to the rep and if it is, greet them. It comes prepackaged with 2 "welcome" images as well as a basic welcome message to get you started. 
