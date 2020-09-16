@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Greeter"
-        uses: anishanne/greeter@releases/V1
+        uses: anishanne/greeter@V1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: "![](https://cdn.anishdoes.dev/githublight.png)\nHey @{user}! Welcome to the **Greeter** repo on **Github**.
